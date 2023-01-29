@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecco mi kebab </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>HERE IS KABAB</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menù</a>
+            <a href="#review">review</a>
+            <a href="#order">oders</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#order" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search">
+        </label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Il nostro piatto speciale</span>
+                        <h3>durum falafel</h3>
+                        <p>è molto delizioso</p>
+                        <a href="#order" class="btn">ordine ora</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1 (2).png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Il nostro piatto speciale</span>
+                        <h3>Patatine spirale</h3>
+                        <p>Spero che ti piaccia tis uno</p>
+                        <a href="#order" class="btn">ordine ora</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/patatine_spirale-removebg-preview.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Il nostro piatto speciale</span>
+                        <h3>pizza</h3>
+                        <p>è molto piccante.disponibile in tutti i gusti</p>
+                        <a href="#order" class="btn">ordine ora</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> ODER NOW</h3>
+        <h1 class="heading"> FREE AND FAST </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>IYOUR NAME:</span>
+                    <input type="text" placeholder="insert your name">
+                </div>
+                <div class="input">
+                    <span>YOUR TELEFONE NUMBER :</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>YOUR ODER :</span>
+                    <input type="text" placeholder="you many oders">
+                </div>
+                <div class="input">
+                    <span>FOOD ADDITION:</span>
+                    <input type="test" placeholder="extra food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>HOW MUCH :</span>
+                    <input type="number" placeholder="how much oders">
+                </div>
+                <div class="input">
+                    <span>DATE AND TIME :</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>YOUR ADRESS:</span>
+                    <textarea name="" placeholder="enter your adress" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>YOUR MESSAGE</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30"
+                        rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section> 
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>LOCATION:</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.3761005525844!2d12.336700815694625!3d44.116864030341866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cbba514192e9b%3A0xd6f497f03277973f!2sEcco%20mi%20kebab%20gambettola!5e0!3m2!1sen!2s!4v1627814021603!5m2!1sen!2s"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="box">
+                <h3>QUICK LINK :</h3>
+                <a href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">maneu</a>
+                <a href="#review">reviews</a>
+                <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                <h3>CONTACT INFO :</h3>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 0547 405827</a>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 3274932111</a>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +39 0547 405827</a>
+                <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Piazza Camillo Benso Conte di Cavour,
+                    2, 47035 Gambettola FC, Italy
+                </a>
+                <a href="https://www.gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    nasarkadhar11@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <div class="footer-icons">
+                    <h3>FOLLOW US:</h3>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i> FACEBOOK
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i> INSTRAGRAM
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i> TWITTER
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i> LINKEDIN
+                    </a><a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i> YOUTUBE
+                    </a>
+                </div>
+            </div>
+            <div class="credit"> copyright @ 2021 by <span>HERE IS KEBAB</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
